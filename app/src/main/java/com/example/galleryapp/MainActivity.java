@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                searchView.clearFocus();
-                searchView.setIconified(true);
+                //searchView.clearFocus();
+                //searchView.setIconified(true);
                 resetImageList();
                 search=query;
                 loadImages(search,page);
